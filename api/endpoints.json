@@ -1,0 +1,23 @@
+{
+  "Platforms": {
+    "EPIC": "https://api.tracker.gg/api/v2/rocket-league/standard/profile/epic/{{user}}",
+    "STEAM": "https://api.tracker.gg/api/v2/rocket-league/standard/profile/steam/{{user}}",
+    "XBOX": "https://api.tracker.gg/api/v2/rocket-league/standard/profile/xbl/{{user}}",
+    "PSN": "https://api.tracker.gg/api/v2/rocket-league/standard/profile/psn/{{user}}"
+  },
+  "Segments": {
+    "Playlists": {
+      "Seasons": "https://api.tracker.gg/api/v2/rocket-league/standard/profile/{{platform}}/{{user}}/segments/playlist?season={{season}}"
+    }
+  },
+  "Images": {
+    "Bronze": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-2.png",
+    "Silver": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-5.png",
+    "Gold": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-8.png",
+    "Platinum": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-11.png",
+    "Diamond": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-14.png",
+    "Champion": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-17.png",
+    "GrandChampion": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-19.png",
+    "SuperSonicLegend": "https://trackercdn.com/cdn/tracker.gg/rocket-league/ranks/s4-22.png"
+  }
+}
